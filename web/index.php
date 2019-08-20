@@ -81,7 +81,7 @@
 							<img src="img/alura-logo.svg" class="d-inline-block align-top" alt="Alura">Motors
 						</a>
 						<ul class="nav navbar-nav" style="margin-top: 35px;">
-							<li><a href="./hello-world">Hello World</a></li>
+							<li><a href="./hello-world.php">Hello World</a></li>
 							<li><a href="./index">Anúncios</a></li>
 						</ul>
 					</div>
