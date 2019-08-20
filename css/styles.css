@@ -1,0 +1,114 @@
+a{
+	cursor: pointer;
+}
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#hello-world{
+	font-size: 72px;
+	font-weight: 900;
+	margin-top: 10%;
+	text-align: center;
+}
+.definition{
+	text-align: center;
+	font-size: 20px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.info-pages {
+	margin-right: 10px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.type-select {
+	font-size: 26px;
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 15px;
+	padding-top: 5px;
+}
+.badge{
+	margin-left: 2px;
+}
+.badge-danger{
+	background-color: #dc3545;
+}
+.sub-header{
+	font-weight: 600;
+	background-image: linear-gradient(to left, rgba(192,192,192,0), rgba(192,192,192,1));
+	margin: 0;
+	padding: 20px;
+}
+.pagination{
+	display: inline-flex !important;
+}
+.pagination>li{
+	display: inline-flex !important;
+}
+.card{
+	width: 100%;
+	min-height: 190px;
+}
+.image-card{
+	overflow: hidden;
+}
+.image-card img {
+	max-width: 100% !important;
+}
+.body-card {
+	padding-left: 10px;
+	height: 100%;
+}
+.value-card {
+	display: table; 
+	overflow: hidden;
+	height: 100%;
+	margin-top: 50px;
+}
+.value{
+	display: table-cell; 
+	vertical-align: middle;
+	text-align: center;
+}
+.inline{
+	display: inline;
+}
+.txt-name{
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 0
+}
+.txt-motor{
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: cadetblue;
+}
+.txt-description{
+	font-size: 16px;
+	font-weight: 600;
+}
+.lst-items{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	margin: 0;
+}
+.txt-items{
+	font-size: 12px;
+	padding: 0 10px 5px 0;
+	list-style: none;
+}
+.txt-location{
+	font-size: 12px;
+	color: cadetblue;
+	margin-bottom: 0;
+}
+.txt-value{
+	font-size: 32px;
+	font-weight: 600;
+}

@@ -1,0 +1,31 @@
+ErrorDocument 400 /erro.html
+ErrorDocument 401 /erro.html
+ErrorDocument 403 /erro.html
+ErrorDocument 404 /erro.html
+ErrorDocument 405 /erro.html
+ErrorDocument 406 /erro.html
+ErrorDocument 407 /erro.html
+ErrorDocument 408 /erro.html
+ErrorDocument 409 /erro.html
+ErrorDocument 410 /erro.html
+ErrorDocument 411 /erro.html
+ErrorDocument 412 /erro.html
+ErrorDocument 413 /erro.html
+ErrorDocument 414 /erro.html
+ErrorDocument 415 /erro.html
+ErrorDocument 416 /erro.html
+ErrorDocument 417 /erro.html
+ErrorDocument 500 /erro.html
+ErrorDocument 501 /erro.html
+ErrorDocument 502 /erro.html
+ErrorDocument 503 /erro.html
+ErrorDocument 504 /erro.html
+ErrorDocument 505 /erro.html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteCond %{HTTP_HOST} ^ll3appweb\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ll3appweb\.com\.br$
+RewriteRule ^/?$ "http\:\/\/www\.ll3appweb\.com\.br\/abramed\/index" [R=301,L]
+
