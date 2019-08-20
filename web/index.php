@@ -51,7 +51,7 @@
 </head>
 <body cz-shortcut-listen="true">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-	
+
 	<div class="modal fade" data-backdrop="static" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loadingModal_label">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -77,18 +77,18 @@
 			<nav class="navbar navbar-inverse" style="margin-bottom: 0;">
 				<div class="container" style="margin-bottom: -20px;">
 					<div class="navbar">
-						<a href="./index" class="navbar-brand" title="Alura Motors">
+						<a href="./index.php" class="navbar-brand" title="Alura Motors">
 							<img src="img/alura-logo.svg" class="d-inline-block align-top" alt="Alura">Motors
 						</a>
 						<ul class="nav navbar-nav" style="margin-top: 35px;">
 							<li><a href="./hello-world.php">Hello World</a></li>
-							<li><a href="./index">Anúncios</a></li>
+							<li><a href="./index.php">Anúncios</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
-		
+
 		<div class="container">
 			<h1 class="sub-header">Veículos de Luxo Novos e Usados - Todas as Marcas</h1>
 			<div class="row">
@@ -116,7 +116,7 @@
 			<nav class="navbar navbar-inverse">
 				<div class="container" style="margin-bottom: 10px;">
 					<div class="navbar">
-						<a href="./index" class="navbar-brand" title="Alura Motors">
+						<a href="./index.php" class="navbar-brand" title="Alura Motors">
 							<img src="img/alura-logo.svg" class="d-inline-block align-top" alt="Alura">Motors
 						</a>
 						<p style="color: #fff; text-align: center; margin-top: 40px;">Aplicação para treinamento de web scraping</p>
@@ -126,6 +126,6 @@
 		</footer>
 
 	</div>
-	
+
 </body>
 </html>
