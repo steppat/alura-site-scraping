@@ -21,12 +21,12 @@
             <nav class="navbar navbar-inverse" style="margin-bottom: 0;">
                 <div class="container" style="margin-bottom: -20px;">
                     <div class="navbar">
-                        <a href="./index" class="navbar-brand" title="Alura Motors">
+                        <a href="./index.php" class="navbar-brand" title="Alura Motors">
                             <img src="img/alura-logo.svg" class="d-inline-block align-top" alt="Alura">Motors
                         </a>
                         <ul class="nav navbar-nav" style="margin-top: 35px;">
-                            <li><a href="./hello-world">Hello World</a></li>
-                            <li><a href="./index">Anúncios</a></li>
+                            <li><a href="./hello-world.php">Hello World</a></li>
+                            <li><a href="./index.php">Anúncios</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="container" style="width: 100%;">
-                        <h1 id="hello-world">Hello World!!!</h1>
-                        <p class="definition"><b>Web Scraping</b> é o termo utilizado para definir a prática de coletar automaticamente informações na Internet. Isto é feito, geralmente, por meio de programas que simulam a navegação humana na Web.</p>
+                <h1 id="hello-world">Hello World!!!</h1>
+                <p class="definition"><b>Web Scraping</b> é o termo utilizado para definir a prática de coletar automaticamente informações na Internet. Isto é feito, geralmente, por meio de programas que simulam a navegação humana na Web.</p>
 					</div>
 				</div>
 			</div>
@@ -49,16 +49,16 @@
 			<nav class="navbar navbar-inverse">
 				<div class="container" style="margin-bottom: 10px;">
 					<div class="navbar">
-						<a href="./index" class="navbar-brand" title="Alura Motors">
+						<a href="./index.php" class="navbar-brand" title="Alura Motors">
 							<img src="img/alura-logo.svg" class="d-inline-block align-top" alt="Alura">Motors
 						</a>
 						<p style="color: #fff; text-align: center; margin-top: 40px;">Aplicação para treinamento de web scraping</p>
 					</div>
 				</div>
 			</nav>
-        </footer>
-        
+   </footer>
+
 	</div>
-	
+
 </body>
 </html>

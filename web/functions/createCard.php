@@ -2,7 +2,7 @@
 
     function createCard($page, $limit = 10){
 
-        $dados = callAPI("GET", "http://alura-scraping.herokuapp.com/produtos?_page=".$page."&_limit=".$limit);
+        $dados = callAPI("GET", "http://alura-scraping.herokuapp.com/produtos.php?_page=".$page."&_limit=".$limit);
 
         $response = '';
         for($i = 0; $i < count($dados); $i++){
